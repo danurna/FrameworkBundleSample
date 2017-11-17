@@ -9,11 +9,11 @@
 import Foundation
 
 private class SomeClass {
-	public init(){}
+	init(){}
 }
 
 private class SomeGenericClass<T> {
-	public init(){}
+	init(){}
 }
 
 public struct BundlePrinter {
@@ -24,6 +24,7 @@ public struct BundlePrinter {
 		let bundleForNonGenericClass = Bundle(for: type(of: nonGenericObject))
 		let bundleForGenericClass  = Bundle(for: type(of: genericObject))
 		
+		print("Bundle (Main): \(Bundle.main)")
 		print("Bundle (Non-Generic): \(bundleForNonGenericClass)")
 		print("Bundle (Generic): \(bundleForGenericClass)")
 	}
