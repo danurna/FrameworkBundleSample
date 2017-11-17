@@ -30,7 +30,7 @@ public struct BundlePrinter {
 ```
 
 Called from `ViewController` results in:
-> Bundle (Main): NSBundle </var/containers/Bundle/Application/221CA402-6432-48BE-9CCA-8580884D3751/**FrameworkBundleSample.app**> (loaded)
+> Bundle (Main): NSBundle </var/containers/Bundle/Application/53653542-3B5D-462B-BBF0-161F2BD74DF5/**FrameworkBundleSample.app**> (loaded)
 
 > Bundle (Non-Generic): NSBundle </var/containers/Bundle/Application/53653542-3B5D-462B-BBF0-161F2BD74DF5/**FrameworkBundleSample.app/Frameworks/AnyFramework.framework**> (loaded)
 
